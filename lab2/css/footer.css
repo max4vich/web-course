@@ -1,0 +1,93 @@
+.footer {
+    width: auto;
+    height: 247px;
+    background-color: #F6F5F5;
+}
+
+.footer_main_container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_main_container_bottom {
+    padding-top: 140px;
+    height: 120px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 1140px;
+    align-items: center;
+}
+
+img.LaslesVPN {
+    width: 132px;
+    height: 30px;
+}
+
+.footer_social_media {
+    display: flex;
+    width: 160px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img.media {
+    width: 34px;
+    height: 34px;
+}
+
+img.logo_png {
+    width: 148px;
+    height: 36px;
+}
+
+/* Tablets */
+@media screen and (max-width: 768px){
+    .footer {
+        width: auto;
+        height: auto;
+    }
+
+    .footer_main_container_bottom {
+        height: 100px;
+        padding-top: 0;
+        width: 420px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    img.logo_png {
+        display: none;
+    }
+
+    .footer_social_media {
+        width: 120px;
+    }
+}
+
+/* Small devices */
+@media screen and (max-width: 450px){
+    .footer_main_container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer {
+        height: 80px;
+    }
+
+    .footer_main_container_bottom {
+        padding: 0;
+        width: 300px;
+        justify-content: space-around;
+        height: 80px;
+    }
+
+    img.logo_png {
+        display: none;
+    }
+
+    .footer_social_media {
+        width: 120px;
+    }
+}
