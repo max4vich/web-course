@@ -20,3 +20,7 @@
 ***
 ### Лабораторна робота №5 (Варіант 7)
 Посилання на вітку [тут](https://github.com/max4vich/web-course/pull/5)
+
+***
+### Лабораторна робота №5 (Варіант 7)
+Посилання на вітку [тут](https://github.com/max4vich/web-course/pull/6)
