@@ -1,0 +1,48 @@
+.info-card {
+    width: 1350px;
+    height: 380px;
+    border-radius: 25px;
+    margin: 20px;
+    margin-bottom: 105px;
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    background-color: #fff;
+    text-align: center;
+} 
+
+.info-card-image {
+    width: 600px;
+    height: 380px;
+    border-radius: 25px;
+    padding-right: 100px;
+}
+
+.info-card-content {
+    width: 525px;
+    text-align: left;
+}
+
+.info-card-title {
+    font-weight: 600px;
+    font-size: 36px;
+    margin: 0;
+}
+
+.info-card-price {
+    font-weight: 400px;
+    font-size: 32px;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.info-card-description {
+    font-weight: 200px;
+    font-size: 32px;
+    margin: 0;
+}
+
+h1 {
+        font-size: 64px;
+}

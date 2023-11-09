@@ -1,0 +1,12 @@
+.exclusive_models_list {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-card {
+    scale: 0.8
+}
