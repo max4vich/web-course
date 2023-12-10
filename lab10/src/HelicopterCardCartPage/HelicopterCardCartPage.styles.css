@@ -1,0 +1,27 @@
+.cartpage-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: none;
+    padding: 10px;
+}
+
+.cartpage-card img{
+    width: 10vw;
+    border-radius: 25px;
+}
+
+.cartpage-card a{
+    font-size:22px;
+}
+
+.cartpage-card h3{
+    font-size:22px;
+    margin: 0;
+}
+
+.cartpage-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+}
