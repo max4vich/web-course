@@ -27,8 +27,16 @@
 
 ***
 ### Лабораторна робота №7 (Варіант 7)
-Посилання на вітку [тут](https://github.com/max4vich/web-course/pull/6)
+Посилання на вітку [тут](https://github.com/max4vich/web-course/pull/7)
 
 ***
 ### Лабораторна робота №8 (Варіант 7)
 Посилання на вітку [тут](https://github.com/max4vich/web-course/pull/7)
+
+***
+### Лабораторна робота №9 (Варіант 7)
+Посилання на вітку [тут](https://github.com/max4vich/web-course/pull/8)
+
+***
+### Лабораторна робота №10 (Варіант 7)
+Посилання на вітку [тут](https://github.com/max4vich/web-course/pull/9)
