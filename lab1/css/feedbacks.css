@@ -1,0 +1,214 @@
+section.feedbacks {
+    background-color: white;
+    height: 820px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.feedbacks {
+    width: 1250px;
+}
+
+.feedbacks h1 {
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 71px;
+    margin: 0;
+}
+
+.feedbacks p {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.feedbacks_reviews {
+    height: 231px;
+    width: 1250px;
+    padding-top: 58px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.feedbacks_review_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 230px;
+    border-radius: 10px;
+    border: 2px solid #DDDDDD;
+    background: #FFF;
+}
+
+.feedbacks_review_box:hover {
+    border: 2px solid #F53838;
+    background: #FFF;
+}
+
+.feedbacks_top_box {
+    padding-top: 30px;
+    display: flex;
+    width: 300px;
+    height: 70px;
+}
+
+.feedbacks_top_box_info {
+    display: block;
+    padding-left: 13px;
+    padding-top: 2px;
+    width: 150px;
+    
+}
+
+.feedbacks_top_box img{
+    width: 50px;
+    height: 50px;
+}
+
+.feedbacks_top_box_info h2 {
+    text-align: left;
+    font-size: 18px;
+    margin:0;
+    color: #0B132A;
+    padding: 0;
+    font-weight: 500;
+
+}
+
+div.feedbacks_top_box_info p {
+    text-align: left;
+    color: #4F5665;
+    text-align: left;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0;
+    margin:0;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    padding-left: 37px;
+    margin-top: -30px;
+}
+
+.rating h2{
+    font-weight: 400;
+    padding-right: 10px;
+    font-size: 16px
+}
+
+.rating img{
+    width: 25px;
+    height: 25px;
+}
+
+.feedbacks_bottom {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100px;
+    width: auto;
+}
+
+.feedbacks_bottom h3{
+    align-self: center;
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0;
+}
+
+.overlay {
+    width: auto;
+    height: 233px;
+    display: flex;
+    justify-content: center;
+}
+.overlay_aligned {
+    margin-top: 115px;
+    width: 1140px;
+    height: 233px;
+    border-radius: 10px;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+.overlay_text {
+    display: block;
+    flex-direction: column;
+    height: 120px;
+    width: 372px;
+    padding-top: 58px;
+    padding-left: 70px;
+}
+
+.overlay_text h3 {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+    margin: 0;
+}
+
+.overlay_text p {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.overlay_button {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 90px;
+    align-items: center;
+    padding-top: 87px;
+    padding-right: 70px;
+}
+
+.overlay_default-button {
+    font-family: Rubik;
+    width: 250px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    background: #F53838;
+    border-radius: 10px;
+    border: 0;
+    z-index: 1;
+}
+
+.overlay_button_glow {
+    width: 212px;
+    height: 60px;
+    background-color: #F5383859;
+    filter: blur(30px);
+    border-radius: 10px;
+    margin:0;
+    margin-top: -25px;
+    z-index: 0;
+}

@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+logo img{
+    width: 149px;
+    height: 37px;
+}
+
+nav_elements {
+    justify-content: space-around;
+    width: 50%;
+}
+
+nav_elements ul {
+    justify-content: space-around;
+    list-style-type: none;
+    display: flex;
+}
+
+nav_elements ul li a{
+    text-decoration: none;
+    justify-content: space-around;
+    color: #4F5665;
+}
+
+.hero_header_buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+
+    align-items: center;
+
+}
+
+a.sign_in {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+a.sign_up {
+    align-items: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border: 2px solid #F53855;
+    color: #F53855;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    border-radius: 50px;
+}
