@@ -1,0 +1,32 @@
+/* Desktop */
+@media screen and (min-width: 769px){
+    .burger_menu img{
+        display: none;
+    }
+
+    .burger_menu {
+        display: none;
+    }
+}
+
+/* Tablets */
+@media screen and (max-width: 768px){
+    .burger_menu img{
+        width: 40px;
+        padding-left: 10px;
+    }
+    .nav_elements ul{
+        display: none;
+    }
+    .header{
+        justify-content: space-between;
+    }
+}
+
+/* Small devices */
+@media screen and (max-width: 450px){
+    .burger_menu img{
+        width: 25px;
+        padding-left: 10px; 
+    } 
+}

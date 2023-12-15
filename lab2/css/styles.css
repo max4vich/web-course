@@ -1,0 +1,83 @@
+@import "header.css";
+@import "hero.css";
+@import "features.css";
+@import "feedbacks.css";
+@import "footer.css";
+@import "burger_menu.css";
+
+body {
+    font-family: Rubik;
+    font-size: 16px;
+    margin: 0;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+html {
+    width: auto;
+    height: auto;
+}
+
+/* 4k */
+/* @media screen and (min-width: 2560px) {
+    html {
+        transform: scale(1.5);
+        margin: 0 auto;
+    }
+    
+    header {
+        padding-top: 40%;
+    }
+
+    .container{
+        margin: 0 auto;
+    }
+} */
+
+/* Another */
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 95%;
+    }
+}
+
+/* Laptop */
+@media screen and (max-width: 1024px){
+    .container {
+        max-width: 90%;
+    }
+}
+
+/* Tablets */
+@media screen and (max-width: 768px){
+    .container {
+        max-width: 650px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Small devices */
+@media screen and (max-width: 450px){
+    .container {
+        max-width: 350px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body {
+        font-size: 12px;
+    }
+}
+
