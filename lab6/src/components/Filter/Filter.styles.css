@@ -1,0 +1,65 @@
+.filter_catalog {
+    padding-bottom: 20px;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header_catalog_nav1, .header_catalog_nav2 {
+    padding-left: 80px;
+}
+
+.header_catalog_nav1 select, .header_catalog_nav2 select {
+    border: 2px solid black;
+    border-radius: 9px;
+    width: 140px;
+    height: 35px;
+}
+
+.button_apply {
+    width: 180px;
+    border-radius: 9px;
+    margin-left: 600px;
+    background: white;
+    border: 2px solid black;
+    align-items: center;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    align-self: flex-end;
+}
+
+.button_apply:focus {
+    color: #171e29;
+}
+
+.button_apply:hover {
+    border-color: #56d33a;
+    color: #56d33a;
+    fill: #56D33AFF;
+}
+
+.button_apply:active {
+    border-color: #56d33a;
+    color: #56d33a;
+    fill: #56D33AFF;
+}
+
+.filters {
+    display: flex;
+}

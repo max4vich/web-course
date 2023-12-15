@@ -1,0 +1,27 @@
+.section_cards {
+    width: auto;
+    height: 1750px;
+    display: flex;
+    justify-content: center;
+}
+
+.cards_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.cards_block {
+    text-align: left;
+}
+
+h1{ 
+    margin: 0;
+    color: #282F2F;
+}
+
+p {
+    text-align: justify;
+}
